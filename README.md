@@ -8,7 +8,7 @@ Step by step:
 5) Open Termux and enter "git clone https://github.com/terafyde873/scripts.git"
 6) Enter "cd scripts"
 7) Enter "chmod u+x script.sh"
-8) Enter "./script.sh" and allow to finish.
+8) Enter "./setup.sh" and allow to finish.
 9) Once finished, enter "cd"
 10) Enter "cd xmrig/build"
 11) Enter "nano config.json", here, modify the basic config file. (CTRL+X, Y, Enter, to exit out of nano)

@@ -28,4 +28,7 @@ cd xmrig/build
 echo "Running cmake and make..."
 cmake .. -DWITH_HWLOC=OFF && make -j$(nproc)
 
+echo "Moving config.json..."
+mv ../../scripts/config.json .
+
 echo "Setup complete."
